@@ -1,0 +1,17 @@
+# Subtitle Generator - Requirements
+# Python 3.8+ required
+
+# Core dependencies for subtitle generation
+faster-whisper>=1.0.0
+
+# For Streamlit web GUI
+streamlit>=1.40.0
+
+# For audio/video processing (requires ffmpeg binary to be installed separately)
+ffmpeg-python>=0.2.0
+
+# Additional useful packages that are often needed
+# (these may be automatically installed as dependencies of the above)
+numpy>=1.21.0
+torch>=1.13.0  # For faster-whisper models
+tqdm>=4.64.0   # Progress bars
